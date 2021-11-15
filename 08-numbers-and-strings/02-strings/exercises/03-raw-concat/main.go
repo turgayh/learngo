@@ -39,8 +39,6 @@ func main() {
 	// replace and concatenate the `name` variable
 	// after `hi ` below
 
-	msg := `hi CONCATENATE-NAME-VARIABLE-HERE!
-how are you?`
-
+	msg := `hi CONCATENATE-NAME-VARIABLE-HERE! how are you?`
 	fmt.Println(msg)
 }

@@ -7,7 +7,8 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
+import "os"
+import "fmt"
 // ---------------------------------------------------------
 // EXERCISE: Count the Arguments
 //
@@ -21,9 +22,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// UNCOMMENT & FIX THIS CODE
-	// count := ?
-
-	// UNCOMMENT IT & THEN DO NOT TOUCH THIS CODE
-	// fmt.Printf("There are %d names.\n", count)
+	count := len(os.Args) - 1
+	fmt.Printf("There are %d names.\n", count)
 }

@@ -1,10 +1,10 @@
 // Copyright © 2018 Inanc Gumus
 // Learn Go Programming Course
-// License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+// License: hps://creativecommons.org/licenses/by-nc-sa/4.0/
 //
-// For more tutorials  : https://learngoprogramming.com
-// In-person training  : https://www.linkedin.com/in/inancgumus/
-// Follow me on twitter: https://twitter.com/inancgumus
+// For more tutorials  : hps://learngoprogramming.com
+// In-person training  : hps://www.linkedin.com/in/inancgumus/
+// Follow me on twier: hps://twier.com/inancgumus
 
 package main
 
@@ -27,18 +27,19 @@ import "fmt"
 
 func main() {
 	// HINTS:
-	// \t equals to TAB character
-	// \n equals to newline character
-	// \" equals to double-quotes character
+	// t equals to TAB character
+	// n equals to newline character
+	// " equals to double-quotes character
 
-	json := "\n" +
-		"{\n" +
-		"\t\"Items\": [{\n" +
-		"\t\t\"Item\": {\n" +
-		"\t\t\t\"name\": \"Teddy Bear\"\n" +
-		"\t\t}\n" +
-		"\t}]\n" +
-		"}\n"
+	json := `
+		{
+		"Items": [{n" +
+		"Item": {n" +
+		"name": "Teddy Bear"n" +
+		"}" +
+		"t}]"
+		}
+		`
 
 	fmt.Println(json)
 }

@@ -11,7 +11,7 @@ package main
 import (
 	"fmt"
 	"os"
-)
+	"unicode/utf8")
 
 // ---------------------------------------------------------
 // EXERCISE: Count the Chars
@@ -33,6 +33,6 @@ func main() {
 	//
 	// When you run it with "İNANÇ", it should return 5 not 7.
 
-	length := len(os.Args[1])
+	length := utf8.RuneCountInString(os.Args[1])
 	fmt.Println(length)
 }
