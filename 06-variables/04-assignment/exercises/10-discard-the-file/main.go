@@ -7,7 +7,7 @@
 // Follow me on twitter: https://twitter.com/inancgumus
 
 package main
-
+import "fmt"
 // ---------------------------------------------------------
 // EXERCISE: Discard The File
 //
@@ -25,5 +25,6 @@ package main
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// ? ?= path.Split("secret/file.txt")
+	dir , _ := path.Split("secret/file.txt")
+	fmt.Println(p)
 }

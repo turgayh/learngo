@@ -20,11 +20,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// UNCOMMENT THE CODE BELOW:
-
-	// color := "green"
-
-	// ADD YOUR CODE BELOW:
-
-	// ?
+	color := "green"
+	color = "blue"
 }
