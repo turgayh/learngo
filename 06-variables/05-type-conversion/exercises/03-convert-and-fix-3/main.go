@@ -18,5 +18,5 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// fmt.Println(int(5.5))
+	fmt.Println(5.5)
 }
